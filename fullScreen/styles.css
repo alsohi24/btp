@@ -1,0 +1,25 @@
+header{
+	height: 100vh;
+	background-image: url(http://media1.santabanta.com/full1/Creative/Abstract/abstract-256a.jpg);
+	margin-bottom: 50px;
+	background-size: cover;
+  background-position: center; 
+  background-attachment: fixed;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color:white;
+
+
+
+}
+
+
+p{
+	width: 600px;
+	margin: 0 auto 20px;
+}
+

@@ -5,6 +5,27 @@ body{
 	color: #555
 }
 
+header{
+	/*Estilos del fondo (Imagen)*/
+	height: 100vh;
+	background-image: url(http://media1.santabanta.com/full1/Creative/Abstract/abstract-256a.jpg);
+	margin-bottom: 50px;
+	background-size: cover;
+  	background-position: center; 
+  	background-attachment: fixed;
+	
+	/*Estilos del contenido*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color:white;
+
+
+
+}
+
 h1,h2,h3,h4,h5,h6 {
 	font-weight: 300;
 	color: #609cd3;
@@ -63,8 +84,10 @@ hr{
 }
 
 header{
-	background-image: url() no-repeat center;
-	background.size: cover;
+	background-image: url(http://verdewall.com/wp-content/uploads/2016/08/Cool-Backgrounds-38A.jpg);
+	background-position: center; 
+	background-size: cover;
+	background-repeat: no-repeat;
 	width: 100%;
 	min-height: 530px;
 	padding-top: 100px;
@@ -75,4 +98,21 @@ header h1{
 	margin-bottom: 5px;
 	letter-spacing: 1px;
 	margin-top: 20%;
+}
+
+.centrado{
+	margin: 40px 0;
+	text-align: center;
+}
+
+i{
+	color: #609cd3;
+	margin: 8px;
+}
+
+@media screen and (max-width: 768px){
+	header h1{
+		margin: 15px 0;
+		font-size: 24px;
+	}
 }
