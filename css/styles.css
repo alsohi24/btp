@@ -116,3 +116,46 @@ i{
 		font-size: 24px;
 	}
 }
+
+
+.section2{
+	background-image: url(https://cdn.allwallpaper.in/wallpapers/1920x1080/4469/nwo-abstract-eyes-illuminati-minimalistic-1920x1080-wallpaper.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*Divs Encimados */
+
+.enc{
+	position: relative; 
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.enc1{
+	background-img: url(http://hdqwalls.com/wallpapers/zebra-abstract-art.jpg);
+	left: 0px; 
+	top: 0px;
+}
+
+.enc2{
+	background-color: gray;
+	left: +100px; 
+	top: -100px;	
+}
+
+.enc3{
+	background-color: red;
+	left: 0px; 
+	top: 0px;
+}
+
+.enc4{
+	background-color: gray;
+	left: -100px; 
+	top: -100px;	
+}
+
+   
