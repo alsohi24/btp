@@ -5,27 +5,6 @@ body{
 	color: #555
 }
 
-header{
-	/*Estilos del fondo (Imagen)*/
-	height: 100vh;
-	background-image: url(http://media1.santabanta.com/full1/Creative/Abstract/abstract-256a.jpg);
-	margin-bottom: 50px;
-	background-size: cover;
-  	background-position: center; 
-  	background-attachment: fixed;
-	
-	/*Estilos del contenido*/
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	color:white;
-
-
-
-}
-
 h1,h2,h3,h4,h5,h6 {
 	font-weight: 300;
 	color: #609cd3;
@@ -83,14 +62,37 @@ hr{
 	color: #609cd3;
 }
 
-header{
-	background-image: url(http://verdewall.com/wp-content/uploads/2016/08/Cool-Backgrounds-38A.jpg);
-	background-position: center; 
-	background-size: cover;
-	background-repeat: no-repeat;
+/*header{
+	background-image: url(http://verdewall.com/wp-content/uploads/2016/08/Cool-Backgrounds-38A.jpg); 
 	width: 100%;
 	min-height: 530px;
-	padding-top: 100px;
+}
+*/
+header{
+	/*Estilos del fondo (Imagen)*/
+	height: 100vh;
+	background-image: url(http://media1.santabanta.com/full1/Creative/Abstract/abstract-256a.jpg);
+	margin-bottom: 50px;
+	background-size: cover;
+  	background-position: center; 
+  	background-attachment: fixed;
+  	background-repeat: no-repeat;
+  	width: 100%;
+	
+	/*Estilos del contenido*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color:white;
+
+
+
+}
+
+header .row{
+	position: relative;
 }
 
 header h1{
@@ -117,6 +119,16 @@ i{
 	}
 }
 
+.page-title{
+	background-color: #FF8A8A;
+	padding:150px;
+}
+
+.page-title h1{
+	font-family: 'Monoton', cursive;
+	color: white;
+}
+
 
 .section2{
 	background-image: url(https://cdn.allwallpaper.in/wallpapers/1920x1080/4469/nwo-abstract-eyes-illuminati-minimalistic-1920x1080-wallpaper.jpg);
@@ -135,27 +147,39 @@ i{
 }
 
 .enc1{
-	background-img: url(http://hdqwalls.com/wallpapers/zebra-abstract-art.jpg);
+	background: url(http://hdqwalls.com/wallpapers/zebra-abstract-art.jpg);
 	left: 0px; 
 	top: 0px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .enc2{
-	background-color: gray;
+	background: url(https://cdn.wallpapersafari.com/68/44/HKwNDL.jpg);
 	left: +100px; 
 	top: -100px;	
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .enc3{
-	background-color: red;
+	background: url(http://hdqwalls.com/wallpapers/zebra-abstract-art.jpg);
 	left: 0px; 
 	top: 0px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .enc4{
-	background-color: gray;
+	background: url(https://cdn.wallpapersafari.com/68/44/HKwNDL.jpg);
 	left: -100px; 
 	top: -100px;	
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
    
