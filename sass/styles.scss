@@ -32,7 +32,7 @@ a{
 	color: #609cd3;
 	&:hover, &:focus {
 	color: #7cb1e9;
-}
+	}
 }
 
 
@@ -120,7 +120,7 @@ i{
 	}
 }
 
-.page-title{
+.titulo{
 	background-color: #FF8A8A;
 	padding:150px;
 	 h1{
@@ -184,9 +184,8 @@ i{
 
  .footer-bs {
     background-color: #3c3d41;
-	padding: 60px 40px 40px 0px;
+	padding: 60px 40px 0px 40px;
 	color: rgba(255,255,255,1.00);
-	margin-bottom: 20px;
 	border-bottom-right-radius: 6px;
 	border-top-left-radius: 0px;
 	border-bottom-left-radius: 6px;
@@ -282,7 +281,7 @@ i{
 					&:before { 
    width: 0; 
    height: 0; 
-   content: "\/"; 
+   content: ""; 
    position: relative; 
    // top: -42px; 
    // left: 0; 
@@ -324,3 +323,62 @@ i{
 
 	 
 }
+
+
+
+#cards{
+	padding: 50px 0px; 
+	.col-md-6{
+		.modal-content{
+				margin-bottom: 30px;
+				.head{
+					img{
+						width: 100%
+					} 
+					h3{
+						font-family:Georgia,serif;
+						color:#4E443C;
+						font-variant: small-caps;
+						text-transform: none;
+						font-weight: 100;
+						margin-bottom: 0;
+					}
+					.card-title {
+						 font-size: 2.2rem;
+						 font-weight: 400;
+						 color: #fff;
+						 text-transform: uppercase;
+						 line-height: 1.5;
+						 padding-left: 2rem;
+						    padding-right: 2rem;
+						 margin-top: 0;
+						 margin-bottom: 0;
+						    position: absolute;
+						 bottom: 23rem;
+						 left: 0;   
+						}
+				}
+				.card-body{
+				 padding: 0 30px 30px 30px;	
+				 p {
+        		 color: #424242;
+       	 		 font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+				 letter-spacing:0.1em;
+				 text-align:center;
+				 margin: 40px auto;
+				 text-transform: lowercase;
+				 line-height: 145%;
+				 font-size: 14pt;
+				 font-variant: small-caps;
+				 &:first-letter{
+				            text-transform: uppercase;
+				        }
+					}
+          		}
+			}	
+		}
+	}
+
+
+
+
