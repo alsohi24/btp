@@ -293,7 +293,7 @@ i {
 .eye {
   width: 100%;
   margin: 20px auto;
-  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.2) 0%, rgba(255, 255, 255, 0.5) 40%, #ffffff 100%);
+  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.2) 0%, #ea3b06 40%, #3015c7 100%);
   background-repeat: no-repeat; }
   .eye .circle {
     background: white;
