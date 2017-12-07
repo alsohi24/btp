@@ -3,7 +3,8 @@ $(document).ready(function(){
     scroll_top_duration = 700,
     $back_to_top = $('.btn-top'),
     $thedial = $('.dial'),
-    $progress_bar = $('.progress-bar');
+    $progress_bar = $('.progress-bar'),
+    $card_select = $('#cards .col-md-6 .modal-content');
   
   // Initialize the progress dial
     // $thedial.knob({
@@ -51,4 +52,15 @@ $(document).ready(function(){
         }, scroll_top_duration
       );
     });
+
+
+    $card_select.hover(
+      function(){
+        $(this).addClass('.shadow-content');
+      },
+      function(){
+        $(this).removeClass('.shadow-content');
+      }
+
+      );
 });
