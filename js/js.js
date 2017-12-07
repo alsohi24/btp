@@ -37,7 +37,7 @@ $(document).ready(function(){
          $('nav').addClass('navbar-default');
      }
 
-      if (s <= 0 ) {
+      if (s <= 600 ) {
         $('nav').removeClass('scrolled navbar-default');
       }    
      
