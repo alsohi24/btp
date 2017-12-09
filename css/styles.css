@@ -89,7 +89,7 @@ i {
     margin: 15px 0;
     font-size: 24px; } }
 .titulo {
-  background-color: #FF8A8A;
+  background-color: gray transparent 0.3;
   padding: 150px; }
   .titulo h1 {
     font-family: 'Monoton', cursive;
@@ -243,6 +243,12 @@ i {
   #cards .col-md-6 .modal-content {
     margin-bottom: 30px;
     box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5); }
+    #cards .col-md-6 .modal-content:hover {
+      transition: all 1.8;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+      -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5); }
     #cards .col-md-6 .modal-content .head img {
       width: 100%; }
     #cards .col-md-6 .modal-content .head h3 {
@@ -362,10 +368,14 @@ i {
           left: 18.75%;
           background: rgba(255, 255, 255, 0.2); }
 
-.shadow-content {
-  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5);
-  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5); }
+#cabecera {
+  height: 50vh;
+  background-image: url(http://media1.santabanta.com/full1/Creative/Abstract/abstract-256a.jpg);
+  margin-bottom: 50px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */

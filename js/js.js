@@ -54,13 +54,30 @@ $(document).ready(function(){
     });
 
 
-    $card_select.hover(
-      function(){
-        $(this).addClass('.shadow-content');
-      },
-      function(){
-        $(this).removeClass('.shadow-content');
-      }
 
-      );
+      $('.owl-carousel').owlCarousel({
+                items: 2,
+                margin: 10,
+                autoHeight: true
+              });
+
+      var mouseX = 0, mouseY = 0, limitX = 150-15, limitY = 150-15;
+$(window).mousemove(function(e){
+  var offset = $('#section2.eye').offset();
+   mouseX = Math.min(e.pageX - offset.left, limitX);
+   mouseY = Math.min(e.pageY - offset.top, limitY);
+   if (mouseX < 0) mouseX = 0;
+   if (mouseY < 0) mouseY = 0;
+});
+
+// cache the selector
+var follower = $("#iris");
+var xp = 0, yp = 0;
+var loop = setInterval(function(){
+    // change 12 to alter damping higher is slower
+    xp += (mouseX - xp) / 12;
+    yp += (mouseY - yp) / 12;
+    follower.css({left:xp, top:yp});
+    
+}, 30);
 });
